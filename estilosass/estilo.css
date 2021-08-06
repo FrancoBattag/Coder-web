@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.h2Titulos {
+  text-align: center;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px !important;
+  margin-top: 20px;
+}
+
+.fondoIndex {
+  background-image: url(../imagenes/fondoIdea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.container__Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.container__Main--head1 {
+  font-size: 13rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+}
+
+.container__Main--head2 {
+  font-size: 8rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+}
+
+hr {
+  color: whitesmoke;
+}
+
+.container__Main--head3 {
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.fondoCocktails {
+  background-image: url("../imagenes/fondoIdea2.jpg");
+  background-size: cover;
+}
+
+.cocktail {
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cocktail__Img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 50%;
+  max-height: auto;
+}
+
+.cocktail__Item {
+  text-align: center;
+}
+
+.cocktail__Item :hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.cocktail__Title {
+  display: block;
+  margin: auto;
+  background-color: #FFBEB8;
+  border: 3px solid #b38682;
+  max-width: 50%;
+  font-family: "Indie Flower", cursive;
+}
+
+.fondoInstruc {
+  background-image: url("../imagenes/fondoIdea4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main__Instruc {
+  width: 50%;
+}
+
+.main__Instruc--h3 {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 1em;
+}
+
+.main__Instruc--li {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 55px;
+  margin-left: 10%;
+  list-style-position: outside;
+}
+
+.main__Instruc--li p {
+  color: black;
+  font-size: 30px;
+}
+
+.fondoNosotros {
+  background-image: url("../imagenes/fondoIdea2.jpg");
+  background-size: cover;
+}
+
+.letraBoton {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  color: black !important;
+}
+
+.transparenciaAccordion {
+  background-color: rgba(245, 245, 245, 0.897) !important;
+}
+
+.accordion-body h3 {
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.bgslide {
+  background-color: rgba(0, 0, 0, 0.708) !important;
+}
+
+.fondoContacto {
+  background-image: url("../imagenes/fondoIdea5.jpg");
+  background-size: cover;
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  text-align: center;
+}
+
+.contacto__div {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contacto__div--h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.contacto__div--h4 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+/*# sourceMappingURL=estilo.css.map */
