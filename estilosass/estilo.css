@@ -7,9 +7,10 @@
 
 .h2Titulos {
   text-align: center;
+  width: 100%;
   color: black;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px !important;
+  font-size: 60px;
   margin-top: 20px;
 }
 
@@ -45,7 +46,7 @@ main {
 }
 
 .container__Main--head1 {
-  font-size: 13rem;
+  font-size: 10rem;
   text-align: center;
   color: whitesmoke;
   font-family: "Bebas Neue", cursive;
@@ -72,26 +73,7 @@ hr {
 .fondoCocktails {
   background-image: url("../imagenes/fondoIdea2.jpg");
   background-size: cover;
-}
-
-.cocktail {
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.cocktail__Img {
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  max-width: 50%;
-  max-height: auto;
-}
-
-.cocktail__Item {
-  text-align: center;
+  background-repeat: no-repeat;
 }
 
 .cocktail__Item :hover {
@@ -102,46 +84,19 @@ hr {
 }
 
 .cocktail__Title {
-  display: block;
-  margin: auto;
-  background-color: #FFBEB8;
-  border: 3px solid #b38682;
-  max-width: 50%;
-  font-family: "Indie Flower", cursive;
+  font-family: "Bebas Neue", cursive;
+  color: black;
 }
 
 .fondoInstruc {
-  background-image: url("../imagenes/fondoIdea4.jpg");
+  background-image: url("../imagenes/fondoIdea6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.main__Instruc {
-  width: 50%;
-}
-
-.main__Instruc--h3 {
-  color: black;
-  font-family: "Indie Flower", cursive;
-  font-size: 1em;
-}
-
-.main__Instruc--li {
-  color: black;
-  font-family: "Indie Flower", cursive;
-  font-size: 55px;
-  margin-left: 10%;
-  list-style-position: outside;
-}
-
-.main__Instruc--li p {
-  color: black;
-  font-size: 30px;
-}
-
 .fondoNosotros {
-  background-image: url("../imagenes/fondoIdea2.jpg");
+  background-image: url("../imagenes/fondoIdea5.jpg");
   background-size: cover;
 }
 
@@ -151,21 +106,13 @@ hr {
   color: black !important;
 }
 
-.transparenciaAccordion {
-  background-color: rgba(245, 245, 245, 0.897) !important;
-}
-
-.accordion-body h3 {
-  font-size: 2rem;
-  font-family: "Indie Flower", cursive;
-}
-
 .bgslide {
   background-color: rgba(0, 0, 0, 0.708) !important;
 }
 
 .fondoContacto {
-  background-image: url("../imagenes/fondoIdea5.jpg");
+  background-image: url("../imagenes/fondoIdea3.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -187,11 +134,13 @@ hr {
 
 .contacto__div--h3 {
   font-family: "Bebas Neue", cursive;
+  color: black;
   font-size: 50px;
 }
 
 .contacto__div--h4 {
   font-family: "Bebas Neue", cursive;
+  color: black;
   font-size: 30px;
 }
 /*# sourceMappingURL=estilo.css.map */

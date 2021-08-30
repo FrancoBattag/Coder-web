@@ -57,7 +57,7 @@ main {
 }
 
 .container__Main--head1 {
-    font-size: 13rem;
+    font-size: 10rem;
     text-align: center;
     color: $color1;
     font-family: $font-titulo;
@@ -84,23 +84,7 @@ hr {
 .fondoCocktails {
     background-image: url("../imagenes/fondoIdea2.jpg");
     background-size: cover;
-}
-
-.cocktail {
-    column-gap: 15px;
-    justify-content: center;
-}
-
-.cocktail__Img {
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    max-width: 50%;
-    max-height: auto;
-}
-
-.cocktail__Item {
-    text-align: center;
+    background-repeat: no-repeat;
 }
 
 .cocktail__Item :hover {
@@ -109,46 +93,20 @@ hr {
 }
 
 .cocktail__Title {
-    display: block;
-    margin: auto;
-    background-color: $color3;
-    border: 3px solid $color4;
-    max-width: 50%;
-    font-family: $font-sub;
+    font-family: $font-titulo;
+    color: $color2;
 }
 
 .fondoInstruc {
-    background-image: url("../imagenes/fondoIdea4.jpg");
+    background-image: url("../imagenes/fondoIdea6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.main__Instruc {
-    width: 50%;
-}
-
-.main__Instruc--h3 {
-    color: $color2;
-    font-family: $font-sub;
-    font-size: 1em;
-}
-
-.main__Instruc--li {
-    color: $color2;
-    font-family: $font-sub;
-    font-size: 55px;
-    margin-left: 10%;
-    list-style-position: outside;
-
-    p {
-        color: $color2;
-        font-size: 30px;
-    }
-}
 
 .fondoNosotros {
-    background-image: url("../imagenes/fondoIdea2.jpg");
+    background-image: url("../imagenes/fondoIdea5.jpg");
     background-size: cover;
 }
 
@@ -159,14 +117,6 @@ hr {
     color: $color2 !important;
 }
 
-.transparenciaAccordion {
-    background-color: rgba(245, 245, 245, 0.897) !important;
-}
-
-.accordion-body h3 {
-    font-size: 2rem;
-    font-family: $font-sub;
-}
 
 .bgslide {
     background-color: rgba(0, 0, 0, 0.708) !important;
@@ -174,7 +124,8 @@ hr {
 
 
 .fondoContacto {
-    background-image: url("../imagenes/fondoIdea5.jpg");
+    background-image: url("../imagenes/fondoIdea3.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -191,10 +142,12 @@ hr {
 
 .contacto__div--h3 {
     font-family: $font-titulo;
+    color: $color2;
     font-size: 50px;
 }
 
 .contacto__div--h4 {
     font-family: $font-titulo;
+    color: $color2;
     font-size: 30px;
 }
